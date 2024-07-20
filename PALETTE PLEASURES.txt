@@ -1,0 +1,153 @@
+
+Website
+JT
+Jose Tobar
+
+
+
+
+
+
+
+
+
+
+
+
+To:​
+Jose Tobar
+​
+Sat 7/20/2024 7:44 AM
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailored Tastes & Palette Pleasures</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #ff6347;
+            color: white;
+            padding: 1em;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #ffb6c1;
+            padding: 1em;
+        }
+        nav a {
+            margin: 0 1em;
+            color: #333;
+            text-decoration: none;
+        }
+        section {
+            padding: 2em;
+        }
+        .hero {
+            background-image: url('your-image-url.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 300px;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            margin-bottom: 2em;
+        }
+        .hero h1 {
+            font-size: 3em;
+        }
+        .about, .menu, .contact {
+            margin-bottom: 2em;
+        }
+        .menu-list {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .menu-item {
+            flex: 1 1 calc(33.333% - 2em);
+            margin: 1em;
+            background-color: white;
+            padding: 1em;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tailored Tastes & Palette Pleasures</h1>
+        <p>Your personalized culinary experience starts here.</p>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section class="hero">
+        <h1>Fresh Ingredients, Interactive Experiences</h1>
+    </section>
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>Welcome to Tailored Tastes and Palette Pleasures, where every dish is crafted to individual preferences. We offer a unique culinary experience, allowing customers to choose their ingredients, cooking styles, and portion sizes. Our focus is on fresh ingredients and interactive experiences to ensure every meal is exactly what you desire.</p>
+    </section>
+    <section id="menu" class="menu">
+        <h2>Our Menu</h2>
+        <div class="menu-list">
+            <div class="menu-item">
+                <h3>Build Your Own Salad</h3>
+                <p>Choose from a variety of fresh greens, veggies, proteins, and dressings to create your perfect salad.</p>
+            </div>
+            <div class="menu-item">
+                <h3>Custom Stir-Fry</h3>
+                <p>Pick your favorite vegetables, proteins, and sauces for a delicious stir-fry made just for you.</p>
+            </div>
+            <div class="menu-item">
+                <h3>Personalized Pizzas</h3>
+                <p>Select your crust, sauce, cheese, and toppings for a pizza that's uniquely yours.</p>
+            </div>
+            <!-- Add more menu items as needed -->
+        </div>
+    </section>
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions or want to make a reservation? Get in touch with us!</p>
+        <form action="mailto:your-email@example.com" method="post" enctype="text/plain">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+            <input type="submit" value="Send">
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 Tailored Tastes & Palette Pleasures. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
+Get Outlook for iOS
+
+
+Reply
+
+
+Forward
+Attendee panel closed
